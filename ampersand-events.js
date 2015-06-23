@@ -198,6 +198,6 @@ define(function (require) {
         return this;
     };
 
-    return Events;
+    return Events.createEmitter();
 
 });
